@@ -7,7 +7,7 @@ sudo apt-get update -y -qq > /dev/null
 sudo apt-get upgrade -y -qq > /dev/null
 
 # Install necessary libraries for guest additions and Vagrant NFS Share
-sudo apt-get -y -q install linux-headers-$(uname -r) build-essential dkms nfs-common python-prettytable devscripts debhelper python-epydoc python-ipaddr python-netifaces python-configobj python-pyparsing python-urwid curl wget git vim python-prettytable devscripts debhelper python-epydoc python-ipaddr python-netifaces python-configobj python-pyparsing python-urwid
+sudo apt-get -y -q install linux-headers-$(uname -r) build-essential dkms nfs-common python-prettytable devscripts debhelper python-epydoc python-ipaddr python-netifaces python-configobj python-pyparsing python-urwid
 
 # Setup sudo to allow no-password sudo for "admin"
 groupadd -r admin
