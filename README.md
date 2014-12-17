@@ -14,4 +14,4 @@ $ packer build packer.json
 * [KVM](http://www.linux-kvm.org/page/Main_Page)
 * [QEMU](http://wiki.qemu.org/Main_Page)
 * [Vagrant libvirt](https://github.com/pradels/vagrant-libvirt)
-* [Packer](http://packer.i)
+* [Packer](http://packer.io)
